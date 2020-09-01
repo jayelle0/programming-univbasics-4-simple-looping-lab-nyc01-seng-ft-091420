@@ -18,19 +18,15 @@ end
 
 
 
-# def  output_array (number, message)
 
-# message = ["Be yourself;", "everyone else is already taken", "- Oscar Wilde"]
 
-# number = [5, 4, 3, 2, 1]
-# message.each do |quote|
-#   number.each do |countdown|
-#     countdown.times do
-#   puts quote
-# end
-# end
-# end
-# end
+def output_array(array)
+  count = 0
+  while count < array.length do
+    puts array[count]
+    count += 1
+  end
+end
 
 
 def return_string_array (array)
