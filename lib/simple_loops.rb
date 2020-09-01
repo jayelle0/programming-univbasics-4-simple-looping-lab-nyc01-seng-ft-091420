@@ -38,7 +38,7 @@ def return_string_array (array)
 array = [5, 4, 3, 2, 1]
 array.each do |num|
   
-puts num.to_i
+puts num.to_s
 
 end
 end
